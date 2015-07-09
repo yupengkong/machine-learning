@@ -1,5 +1,5 @@
 # machine-learning project
-1. Census Income prediction
+—— Census Income prediction
 
 This dataset comes from UCI machine learning repository https://archive.ics.uci.edu/ml/datasets/Census-Income+(KDD)
 It includes 199,523 observations in the training dataset and 99,762 observations in the test dataset. The task is to
@@ -16,7 +16,7 @@ the model, F-1 score was calculated on both major and minor class.
 
 A randomforest model can give a F-1 score of 0.6 for the minor class on the separate test set.
 
-2. Facial Keypoints Detection
+—— Facial Keypoints Detection
 
 This is a project from kaggle competition. The task is to predict the positions of key points in human's face, such as eye center, nose center, mouth corner, etc. There are 15 key points in one image(30 target variables, including x and y position for each point) and 7,049 images (observations). Each image is 96 by 96 pixels (9216 features). However, only 2,140 images are without missing values in target variables.
 
