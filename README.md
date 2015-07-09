@@ -1,4 +1,4 @@
-# machine-learning project
+# machine-learning projects
 —— Census Income prediction
 
 This dataset comes from UCI machine learning repository https://archive.ics.uci.edu/ml/datasets/Census-Income+(KDD)
