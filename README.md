@@ -15,3 +15,11 @@ For the issue of imbalance, upsampling was performed to make even number of post
 the model, F-1 score was calculated on both major and minor class.
 
 A randomforest model can give a F-1 score of 0.6 for the minor class on the separate test set.
+
+2. Facial Keypoints Detection
+
+This is a project from kaggle competition. The task is to predict the positions of key points in human's face, such as eye center, nose center, mouth corner, etc. There are 15 key points in one image(30 target variables, including x and y position for each point) and 7,049 images (observations). Each image is 96 by 96 pixels (9216 features). However, only 2,140 images are without missing values in target variables.
+
+For data analysis and cleanning, openCV package in Python was used to visulize the position of keypoints, principal component analysis (PCA) was implemented to lower the dimension of original dataset. 
+
+For machine learning, artificial neural network(ANN) and convolutional neural network(CNN) are selected to train models. Root mean square error(RMSE) is selected to measure the performance of model. The best RMSE obtained is 3.274 by a model trained with CNN (we used AWS cuda-machine to train CNN model)
